@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Display Flex</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="theme">
+    <h2>flex-wrap: nowrap; padrão, ele não quebra, faz o overflow, explode o container.</h2>
+    <section class="container flex flex-wrap-nowrap">
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>flex-wrap: wrap; quebra os flex items.</h2>
+    <section class="container flex flex-wrap-wrap">
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>flex-wrap: wrap-reverse; quebra os flex items mas revertida-mente.</h2>
+    <section class="container flex flex-wrap-wrap-reverse">
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+    </section>
+</div>
+
+</body>
+</html>
