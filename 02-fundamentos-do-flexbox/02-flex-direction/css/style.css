@@ -1,0 +1,54 @@
+.container{
+    box-sizing: border-box;
+    width: 512px;
+    margin: 20px auto;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+}
+
+.item{
+    background: tomato;
+    margin: 5px;
+
+    font-weight: bold;
+    font-family: "Cascadia Code", sans-serif;
+    color: white;
+
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.theme{
+    background: aliceblue;
+    margin: 20px;
+    padding: 10px;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+/*flex-direction*/
+.flex-direction-row{
+    flex-direction: row; /*Desnecessário já que é o padrão*/
+}
+
+.flex-direction-row-reverse{
+    flex-direction: row-reverse;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.flex-direction-column-reverse{
+    flex-direction: column-reverse;
+}
