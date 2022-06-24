@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Display Flex</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="theme">
+    <h2>Sem flexbox, display: block; Comportamento padrão</h2>
+    <section class="container">
+        <article class="item">Item 1</article>
+        <article class="item">Item 2</article>
+        <article class="item">Item 3</article>
+        <article class="item">Item 4</article>
+        <article class="item">Item 5</article>
+        <article class="item">Item 6</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>Com flexbox, display: flex;</h2>
+    <section class="container flex">
+        <article class="item">Item 1</article>
+        <article class="item">Item 2</article>
+        <article class="item">Item 3</article>
+        <article class="item">Item 4</article>
+        <article class="item">Item 5</article>
+        <article class="item">Item 6</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>Com flexbox, display: flex; e muitos elementos filhos ou flex-items</h2>
+    <p>Os elementos tendem a sair do contentor. devemos utilizar um wrap (embrulho) ou overflow * para impedir esse c omportamento.</p>
+    <section class="container flex">
+        <article class="item">Item 1</article>
+        <article class="item">Item 2</article>
+        <article class="item">Item 3</article>
+        <article class="item">Item 4</article>
+        <article class="item">Item 5</article>
+        <article class="item">Item 6</article>
+        <article class="item">Item 7</article>
+        <article class="item">Item 8</article>
+        <article class="item">Item 9</article>
+        <article class="item">Item 10</article>
+        <article class="item">Item 11</article>
+        <article class="item">Item 12</article>
+        <article class="item">Item 13</article>
+        <article class="item">Item 14</article>
+        <article class="item">Item 15</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>Com flexbox, display: flex; e muitos elementos filhos ou flex-items</h2>
+    <p>Com o uso do wrap ele não excede o limite da largura nem da altura ou profundidade se tivesse definido</p>
+    <section class="container flex wrap">
+        <article class="item">Item 1</article>
+        <article class="item">Item 2</article>
+        <article class="item">Item 3</article>
+        <article class="item">Item 4</article>
+        <article class="item">Item 5</article>
+        <article class="item">Item 6</article>
+        <article class="item">Item 7</article>
+        <article class="item">Item 8</article>
+        <article class="item">Item 9</article>
+        <article class="item">Item 10</article>
+        <article class="item">Item 11</article>
+        <article class="item">Item 12</article>
+        <article class="item">Item 13</article>
+        <article class="item">Item 14</article>
+        <article class="item">Item 15</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>Com flexbox, display: flex; Fazendo o filhos ocuparam todo o container sempre na mesma properção usando flex: 1, um atributo css do flex item e não do conteiner</h2>
+    <section class="container flex">
+        <article class="item flex-1">Item 1</article>
+        <article class="item flex-1">Item 2</article>
+        <article class="item flex-1">Item 3</article>
+        <article class="item flex-1">Item 4</article>
+        <article class="item flex-1">Item 5</article>
+        <article class="item flex-1">Item 6</article>
+    </section>
+</div>
+</body>
+</html>

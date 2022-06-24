@@ -1,0 +1,34 @@
+/*1 - Para utilizar o flexbox devemos declarar o conteiner com display: flex, logo apos isso os elementos do conteiner, os filhos directos vão querer estar lado a lado em um linha e vão ocupar o espaço necessario para estarem visiveis nessa linha.*/
+.container{
+    box-sizing: border-box;
+    width: 512px;
+    margin: 20px auto;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+}
+
+.item{
+    background: tomato;
+    margin: 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.theme{
+    background: aliceblue;
+    margin: 20px;
+    padding: 10px;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+
