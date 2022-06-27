@@ -1,0 +1,74 @@
+.container{
+    box-sizing: border-box;
+    width: 768px;
+    margin: 20px auto;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+}
+
+.item{
+    background: tomato;
+    margin: 5px;
+
+    font-weight: bold;
+    font-family: "Cascadia Code", sans-serif;
+    color: white;
+
+    text-align: center;
+
+    padding: 8px 16px;
+
+    white-space: nowrap;
+}
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.theme{
+    background: aliceblue;
+    margin: 20px;
+    padding: 10px;
+}
+
+.flex-1{
+    /*flex: 1;*/
+}
+
+/*flex-wrap*/
+.flex-wrap-nowrap{
+    flex-wrap: nowrap; /*Desnecessário já que é o padrão*/
+}
+
+.flex-wrap-wrap{
+    flex-wrap: wrap;
+}
+.flex-wrap-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+/**flex-flow*/
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-flex-start{
+    justify-content: flex-start;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
