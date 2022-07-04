@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Align Content</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<h1>Align Content</h1>
+<div>
+    <p><b>stretch</b> - estica os filhos para terem o tamanho do container.</p>
+    <p><b>flex-start</b> - Alinha no inicio.</p>
+    <p><b>flex-end</b> - Alinha no fim.</p>
+    <p><b>space-between</b> - Alinha nas bordas, dando espaço igual entre todos.</p>
+    <p><b>space-around</b> - Cria o mesmo espaçamento antes do primeiro elemento e depois do último elemento.</p>
+    <p><b>center</b> - Alinha os elementos no centro.</p>
+    <p>Se mudarmos a direcção para coluna o justify muda, ele já aplica de cima para baixo.</p>
+</div>
+<div class="theme">
+    <h2>align-content: center</h2>
+    <section class="container flex wrap align-content-center">
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>align-content: flex-end</h2>
+    <section class="container flex wrap align-content-flex-end">
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>align-content: flex-start</h2>
+    <section class="container flex wrap align-content-flex-start">
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>align-content: stretch</h2>
+    <section class="container flex wrap align-content-stretch">
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+    </section>
+</div>
+
+<div class="theme">
+    <h2>align-content: baseline</h2>
+    <section class="container flex wrap align align-content-baseline">
+        <article class="item flex-1">Este é o Item 1</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+        <article class="item flex-1">Este é o Item 2</article>
+        <article class="item flex-1">Este é o Item 3</article>
+    </section>
+</div>
+</body>
+</html>
