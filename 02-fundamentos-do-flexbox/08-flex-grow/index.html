@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex grow</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Flex Grow</h1>
+
+
+<h1>o primeiro tem flex-grow 0</h1>
+<div class="container flex">
+    <div class="item flex-grow-0">
+        1 - flex-grow: 1;
+    </div>
+    <div class="item flex-grow-0">
+        2
+    </div>
+    <div class="item">
+        3
+    </div>
+    <div class="item">
+        4
+    </div>
+    <div class="item">
+        5
+    </div>
+</div>
+
+<h1>o primeiro tem flex-grow</h1>
+<div class="container flex">
+    <div class="item flex-grow">
+        1 - flex-grow: 1;
+    </div>
+    <div class="item">
+        2
+    </div>
+    <div class="item">
+        3
+    </div>
+    <div class="item">
+        4
+    </div>
+    <div class="item">
+        5
+    </div>
+</div>
+
+<h1>o 1 e o 3 tem flex-grow</h1>
+<div class="container flex">
+    <div class="item flex-grow">
+        1 - flex-grow: 1;
+    </div>
+    <div class="item">
+        2
+    </div>
+    <div class="item flex-grow">
+        3 - flex-grow: 1;
+    </div>
+    <div class="item">
+        4
+    </div>
+    <div class="item">
+        5
+    </div>
+</div>
+
+<h1>o 2 tem flex-grow 2 e o resto 1</h1>
+<div class="container flex">
+    <div class="item flex-grow">
+        1 - flex-grow: 1;
+    </div>
+    <div class="item flex-grow-2" style="background: #02ffaa">
+        2
+    </div>
+    <div class="item flex-grow">
+        3
+    </div>
+    <div class="item flex-grow">
+        4
+    </div>
+    <div class="item flex-grow">
+        5
+    </div>
+</div>
+</body>
+</html>
