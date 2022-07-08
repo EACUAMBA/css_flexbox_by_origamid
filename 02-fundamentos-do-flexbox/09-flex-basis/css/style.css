@@ -1,0 +1,30 @@
+
+.container{
+    height: 300px;
+    background: aliceblue;
+    padding: 16px;
+    margin: 16px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-basis-0{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.flex-basis-150px{
+
+    flex-basis: 150px;
+}
+.flex-basis-1{
+    flex-basis: auto;
+}
+
+.item{
+    background: #11b880;
+    margin: 16px;
+    padding: 16px;
+}

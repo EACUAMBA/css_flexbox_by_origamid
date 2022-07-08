@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Basis</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Flex basis</h1>
+<p>Defini um tamanho minimo para os items respeitarem.</p>
+
+
+<div class="container">
+<h1>fllex-basis: 0</h1>
+<h1>fllex-grow: 1</h1>
+    <div class=" flex" >
+        <div class="item flex-basis-0">
+            1 - flex-grow: 1;
+        </div>
+        <div class="item flex-basis-0">
+            2
+        </div>
+        <div class="item flex-basis-0">
+            3
+        </div>
+        <div class="item flex-basis-0">
+            4
+        </div>
+        <div class="item flex-basis-0">
+            5
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>fllex-basis: 150px</h1>
+    <div class=" flex" >
+        <div class="item flex-basis-150px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam commodi consectetur consequuntur cumque deleniti dolores dolorum enim, ipsum iure laboriosam nihil odio odit perferendis provident, quia quisquam quo veniam.
+        </div>
+        <div class="item flex-basis-150px">
+            2
+        </div>
+        <div class="item flex-basis-150px">
+            3
+        </div>
+        <div class="item flex-basis-150px">
+            4
+        </div>
+        <div class="item flex-basis-150px">
+            5
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>fllex-basis: 1</h1>
+    <h1>fllex-grow: 1</h1>
+    <div class=" flex" >
+        <div class="item flex-basis-1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam commodi consectetur consequuntur cumque deleniti dolores dolorum enim, ipsum iure laboriosam nihil odio odit perferendis provident, quia quisquam quo veniam.
+        </div>
+        <div class="item flex-basis-1">
+            2
+        </div>
+        <div class="item flex-basis-1">
+            3
+        </div>
+        <div class="item flex-basis-150px">
+            4
+        </div>
+        <div class="item flex-basis-1">
+            5
+        </div>
+    </div>
+</div>
+</body>
+</html>
