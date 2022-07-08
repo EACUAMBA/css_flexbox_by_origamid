@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>align-self: flex-start|center|flex-end|stretch|</h1>
+<p>Defini o comportamento do elemento.</p>
+
+
+<div style="display: flex; flex-direction: column">
+    <div style="display: flex; background-color: #10798c; height: 300px">
+        <div style="align-self: flex-start; flex: 1;background: #86daef; padding: 32px; margin: 8px;  text-align: center">
+            align-self: flex-start
+        </div>
+        <div style="align-self: center; flex: 1; background-color: #86daef; padding: 32px; margin: 8px;   text-align: center">
+            align-self: center
+        </div>
+        <div style="align-self: stretch; flex: 1; background-color: #86daef; padding: 32px; margin: 8px; text-align: center">
+            align-self: stretch
+        </div>
+        <div style="align-self: flex-end; flex: 1; background: #86daef; padding: 32px; margin: 8px; text-align: center">
+            align-self: flex-end
+        </div>
+        <div style="align-self: baseline; flex: 1; background: #86daef; padding: 32px; margin: 8px; text-align: center">
+            align-self: baseline
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
