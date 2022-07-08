@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Basis</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Flex Shrink</h1>
+<p>Defini até quanto um elemento pode reduzir o seu tamanho em relação que os outros. O valor padrão é 1 que significa
+    que vai diminuir 1 vez em relação aos outros.</p>
+
+
+<div style="display: flex; flex-direction: column">
+    <div style="display: flex; background-color: #10798c">
+        <div style="flex-shrink: 1; background: #86daef; padding: 32px; margin: 8px; flex-basis: 700px;  text-align: center">
+            flex-shrink: 1; flex-basis: 700px;
+        </div>
+        <div style="flex-shrink: 4; background-color: #86daef; padding: 32px; margin: 8px; flex-basis: 700px;  text-align: center">
+            flex-shrink: 2; flex-basis: 700px;
+        </div>
+    </div>
+    <div style="display: flex; background-color: #10798c">
+        <div style="flex-shrink: 4; background-color: #86daef; padding: 32px; margin: 8px; flex-basis: 700px;  text-align: center">
+            flex-shrink: 2; flex-basis: 700px;
+        </div>
+        <div style="flex-shrink: 1; background: #86daef; padding: 32px; margin: 8px; flex-basis: 700px;  text-align: center">
+            flex-shrink: 1; flex-basis: 700px;
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
