@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Flex</h1>
+<p>É um atalho para utilizar flex-grow, flex-shrink e flex-basis.</p>
+
+
+<div style="display: flex; flex-direction: column">
+    <div style="display: flex; background-color: #10798c">
+        <div style="flex: 1 1 700px; background: #86daef; padding: 32px; margin: 8px;  text-align: center">
+            flex: 1(flex-grow) 1(flex-shrink) 700px(flex-basis);
+        </div>
+        <div style="flex: 1 2 700px; background-color: #86daef; padding: 32px; margin: 8px;   text-align: center">
+            flex: 1(flex-grow) 2(flex-shrink) 700px(flex-basis);
+        </div>
+    </div>
+    <div style="display: flex; background-color: #10798c">
+        <div style="flex: 1 2 700px; background-color: #86daef; padding: 32px; margin: 8px; text-align: center">
+            flex: 1(flex-grow) 2(flex-shrink) 700px(flex-basis);
+        </div>
+        <div style="flex: 1 1 700px; background: #86daef; padding: 32px; margin: 8px; text-align: center">
+            flex: 1(flex-grow) 1(flex-shrink) 700px(flex-basis);
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
